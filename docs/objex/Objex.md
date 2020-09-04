@@ -1,0 +1,1 @@
+<h1>Objex<small>extends <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi3ueujtM_rAhUu7HMBHWCUBT8QFjAAegQIARAC&url=https%3A%2F%2Fdeveloper.mozilla.org%2Fen%2Fdocs%2FWeb%2FJavaScript%2FReference%2FGlobal_Objects%2FMap&usg=AOvVaw2DWiaVC6hrWoxVAMZ7NbWp" target="_blank">Map</a></small></h1>
