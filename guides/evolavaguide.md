@@ -3,13 +3,13 @@
 > A Simple Bot which will play music
 
 ```js
-const { EvolveBuilder, GatewayIntent, CacheOptions } = require("@evolvejs/evolvejs");
+const { EvolveBuilder, GatewayIntents, CacheOptions } = require("@evolvejs/evolvejs");
 const { EvoLavaClient } = require("@evolvejs/evolava")
 
 const client = new EvolveBuilder()
                      .setToken("your bot token here pls")
                      .enableCache(CacheOptions.ALL)
-                     .enableIntents(GatewayIntent.GUILD, GatewayIntent.GUILD_MESSAGES)
+                     .enableIntents(GatewayIntents.GUILD, GatewayIntents.GUILD_MESSAGES)
                      .build();
 
 client.on("clientReady", () => {

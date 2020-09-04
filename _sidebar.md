@@ -5,6 +5,7 @@
 - **Documentation**
 
 - EvolveJS
+* [EvolveBuilder](docs/evolvejs/EvolveBuilder.md)
 * [EvolveClient](docs/evolvejs/EvolveClient.md)
 
 - EvoLava
