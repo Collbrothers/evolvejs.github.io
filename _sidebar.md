@@ -1,5 +1,5 @@
 * [Home](/)
-- **Simple Guides for beginners!**
+- **Guides!**
 * [Basic Bot Guide](guides/guide.md)
 * [EvoLava Guide](guides/evolavaguide.md)
 - **Documentation**
@@ -7,9 +7,15 @@
 - EvolveJS
 * [EvolveBuilder](docs/evolvejs/EvolveBuilder.md)
 * [EvolveClient](docs/evolvejs/EvolveClient.md)
+* [ClientUser](docs/evolvejs/ClientUser.md)
+* [ClientOptions](docs/evolvejs/ClientOptions.md)
 
 - EvoLava
-* [EvoLava](docs/evolava/EvoLavaClient.md)
+* [EvoLavaClient](docs/evolava/EvoLavaClient.md)
 
 - Objex
 * [Objex](docs/objex/Objex.md)
+
+- **Miscs**
+
+* [CommonTypes](miscs/CommonTypes.md)

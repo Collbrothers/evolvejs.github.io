@@ -6,10 +6,10 @@
 const { EvolveBuilder, GatewayIntents, CacheOptions } = require("@evolvejs/evolvejs");
 
 const client = new EvolveBuilder()
-                     .setToken("your bot token here pls")
-                     .enableCache(CacheOptions.ALL)
-                     .enableIntents(GatewayIntents.GUILD, GatewayIntents.GUILD_MESSAGES)
-                     .build();
+                    .setToken("your bot token here pls")
+                    .enableCache(CacheOptions.ALL)
+                    .enableIntents(GatewayIntents.GUILD, GatewayIntents.GUILD_MESSAGES)
+                    .build();
 
 client.on("clientReady", () => console.log(client.user.username));
 client.on("newMessage", (msg) => {

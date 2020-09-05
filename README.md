@@ -54,6 +54,6 @@ yarn add @evolvejs/objex
 
 <h5>Latest Versions</h5>
 
-- **EvolveJS - 0.1.1-alpha**
+- **EvolveJS - 0.1.4-alpha**
 - **EvoLava - 1.0.1**
 - **Objex - 1.0.0**

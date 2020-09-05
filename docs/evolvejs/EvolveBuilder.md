@@ -17,7 +17,7 @@ new EvolveBuilder(token?: string);
 
 |     Name      |                       Type                        |              Optional               |    Default    |    Description     |
 | :-----------: | :-----------------------------------------------: | :---------------------------------: | :-----------: | :----------------: |
-|   `token`   | [string]() | <span class="mdi mdi-close"></span> |    `undefined`     | The token for EvolveClient |
+|   `token`   | [string](miscs/CommonTypes.md) | <span class="mdi mdi-close"></span> |    `undefined`     | The token for EvolveClient |
 
 #### .enableCache(CacheOptions)
 > **Enables the Cache Options**
@@ -26,7 +26,7 @@ new EvolveBuilder(token?: string);
 
 |     Name      |                       Type                        |              Optional               |    Default    |    Description     |
 | :-----------: | :-----------------------------------------------: | :---------------------------------: | :-----------: | :----------------: |
-|   `cacheOptions`   | [CacheOptions]() | <span class="mdi mdi-check"></span> |    `Guild, channels and Users`     | The CacheOptions for EvolveClient |
+|   `cacheOptions`   | [CacheOptions](docs/evolvejs/CacheOptions.md) | <span class="mdi mdi-check"></span> |    `Guild, channels and Users`     | The CacheOptions for EvolveClient |
 
 #### .disableCache(CacheOptions)
 > **Disables the Cache Options**
@@ -35,7 +35,7 @@ new EvolveBuilder(token?: string);
 
 |     Name      |                       Type                        |              Optional               |    Default    |    Description     |
 | :-----------: | :-----------------------------------------------: | :---------------------------------: | :-----------: | :----------------: |
-|   `cacheOptions`   | [CacheOptions]() | <span class="mdi mdi-check"></span> |    `Guild, channels and Users`     | The CacheOptions to be **disabled** for EvolveClient |
+|   `cacheOptions`   | [CacheOptions](docs/evolvejs/CacheOptions.md) | <span class="mdi mdi-check"></span> |    `Guild, channels and Users`     | The CacheOptions to be **disabled** for EvolveClient |
 
 #### .enableIntents(GatewayIntents)
 > **Enables the Gateway Intents you want!**
@@ -44,7 +44,7 @@ new EvolveBuilder(token?: string);
 
 |     Name      |                       Type                        |              Optional               |    Default    |    Description     |
 | :-----------: | :-----------------------------------------------: | :---------------------------------: | :-----------: | :----------------: |
-|   `gatwayIntents`   | [GatewayIntent]() | <span class="mdi mdi-check"></span> |    `GUILD, GUILD_MESSAGES, DIRECT_MESSAGES`     | The Gateway Intents for EvolveClient |
+|   `gatwayIntents`   | [GatewayIntent](docs/evolvejs/GatewayIntents.md) | <span class="mdi mdi-check"></span> |    `GUILD, GUILD_MESSAGES, DIRECT_MESSAGES`     | The Gateway Intents for EvolveClient |
 
 #### .disableIntents(GatewayIntents)
 > **Disables the Gateway Intents you want!**
@@ -53,7 +53,7 @@ new EvolveBuilder(token?: string);
 
 |     Name      |                       Type                        |              Optional               |    Default    |    Description     |
 | :-----------: | :-----------------------------------------------: | :---------------------------------: | :-----------: | :----------------: |
-|   `gatwayIntents`   | [GatewayIntent]() | <span class="mdi mdi-check"></span> |    `GUILD, GUILD_MESSAGES, DIRECT_MESSAGES`     | The Gateway Intents to be **disabled** for EvolveClient |
+|   `gatwayIntents`   | [GatewayIntent](docs/evolvejs/GatewayIntents.md) | <span class="mdi mdi-check"></span> |    `GUILD, GUILD_MESSAGES, DIRECT_MESSAGES`     | The Gateway Intents to be **disabled** for EvolveClient |
 
 #### .setSecret(clientSecret)
 > **Sets the Client Secret if you want to use Oauth2**
@@ -62,7 +62,7 @@ new EvolveBuilder(token?: string);
 
 |     Name      |                       Type                        |              Optional               |    Default    |    Description     |
 | :-----------: | :-----------------------------------------------: | :---------------------------------: | :-----------: | :----------------: |
-|   `clientSecret`   | [string]() | <span class="mdi mdi-close"></span> |    `undefined`     | The Client Secret for EvolveClient |
+|   `clientSecret`   | [string](miscs/CommonTypes.md) | <span class="mdi mdi-close"></span> |    `undefined`     | The Client Secret for EvolveClient |
 
 #### .setShards(totalShard)
 > **Total Number of shards of the client!**
@@ -71,7 +71,7 @@ new EvolveBuilder(token?: string);
 
 |     Name      |                       Type                        |              Optional               |    Default    |    Description     |
 | :-----------: | :-----------------------------------------------: | :---------------------------------: | :-----------: | :----------------: |
-|   `totalShards`   | [number]() | <span class="mdi mdi-close"></span> |    `1`     | The Shards for EvolveClient |
+|   `totalShards`   | [number](miscs/CommonTypes.md) | <span class="mdi mdi-close"></span> |    `1`     | The Shards for EvolveClient |
 
 #### .setActivity(activity)
 > **Sets the client's activity**
@@ -80,7 +80,7 @@ new EvolveBuilder(token?: string);
 
 |     Name      |                       Type                        |              Optional               |    Default    |    Description     |
 | :-----------: | :-----------------------------------------------: | :---------------------------------: | :-----------: | :----------------: |
-|   `activity`   | [Object]() | <span class="mdi mdi-close"></span> |    `Playing EvolveJS`     | The User Activity for EvolveClient |
+|   `activity`   | [Activity Object](docs/evolvejs/Activity.md) | <span class="mdi mdi-close"></span> |    `Playing EvolveJS`     | The User Activity for EvolveClient |
 
 #### .build()
 > **Returns a built [EvolveClient](docs/evolvejs/EvolveClient.md)**
@@ -89,4 +89,4 @@ new EvolveBuilder(token?: string);
 
 |     Name      |                       Type                        |              Optional               |    Default    |    Description     |
 | :-----------: | :-----------------------------------------------: | :---------------------------------: | :-----------: | :----------------: |
-|   `none`   | [undefined]() | <span class="mdi mdi-close"></span> |    `undefined`     | Returns built EvolveClient |
+|   `none`   | [undefined](miscs/CommonTypes.md) | <span class="mdi mdi-close"></span> |    `undefined`     | Returns built EvolveClient |
